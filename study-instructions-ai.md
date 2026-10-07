@@ -1,19 +1,63 @@
 # Create Semantic Model with AI
 
-Thank you for taking part in this study. This will help guide future investment of Power BI and Fabric.
+### Sign into Fabric
 
-You will create two semantic models based on the same set of requirements. One will be created manually and the other using AI.
+Go to [Power BI](https://app.powerbi.com) and sign in with the Entra ID account provided for the study. It will follow the following format.
 
-## Sign into Fabric
+`powerbitestuser<USER_NUMBER>@msftpowerbistudy.onmicrosoft.com`
+
+Examples:
+
+- `powerbitestuser1@msftpowerbistudy.onmicrosoft.com`
+- `powerbitestuser25@msftpowerbistudy.onmicrosoft.com`
+
+Replace `USER_NUMBER` to match the login provided in your study invitation.
+
+### Fabric workspace
 
 Go to [Power BI](https://app.powerbi.com) and sign in with the Entra ID account provided for the study. It will follow the format powerbitestuserX@msftpowerbistudy.onmicrosoft.com.
 
 Create your models in the workspace already created for you following powerbitestuserX naming.
 
    ![Study workspace](resources/img/study-workspace.png)
-   
-## Create semantic model using AI
 
+### GitHub Copilot App and Paid Copilot License
+
+1. Open the **GitHub Copilot App**
+2. Sign-in with your GitHub account that should have an associated paid Copilot license as set up in [Prerequisites](pre-requisites.md)
+   
+	![gh-app-sign-in](resources/img/gh-app-sign-in.png)
+
+	Select the account in the bottom left and click Manage accounts.
+
+	![gh-app-signed-in](resources/img/gh-app-signed-in.png)
+
+3. Check you are not using a free Copilot license. The free Copilot license will not work for this study.
+
+	![copilot-license](resources/img/copilot-license.png)
+
+### MCP Servers and Plugins
+
+Check the following MCP servers and plugins are installed by selecting **Customize** > **Installed**.
+
+> [!NOTE]
+> The MCP servers must be successfully connected to carry out the study. This is shown by the green checkmarks.
+
+> [!NOTE]
+> The [Power BI Modeling MCP](https://github.com/microsoft/powerbi-modeling-mcp) is a local MCP server and it must be ***uninstalled or disabled*** to carry out the study. You will get Power BI agentic modeling capabilitis from the Power BI Authoring MCP Server (Hosted) MCP server instead.
+
+The MCP servers should have a green checkmark to show they are connected using your GitHub Copilot account.
+   - Power BI Authoring MCP Server (Hosted)
+   - FabricIQ
+   - fabric-sqlendpoint
+   - fabric-skills
+   - powerbi-authoring
+
+![gh-app-plugin-installed](resources/img/plugins-mcp.png)
+
+### Create semantic model using AI
+
+<!--
 Take the following prompt text and replace the login and workspace names with the ones provided to you for this study. In GitHub Copilot App, start by entering the text so start a Copilot session. This is a safeguard to avoid cached credentials to other tenants,  associated previous Copilot usage patterns and/or other previously installed MCP servers or plugins.
 
 ```text
@@ -22,9 +66,14 @@ During this session, authenticate only using powerbitestuser1@msftpowerbistudy.o
 - FabricIQ
 - fabric-sqlendpoint
 ```
+-->
+
+Click New to start a new Copilot chat session.
+
+![gh-app-plugin-installed](resources/img/new-copilot-chat.png)
 
 Using the same Copilot session, create a semantic model called **ZavaSemanticModel-AI** based on the the [Semantic Model Requirements](semantic-model-and-query-requirements.md#semantic-model-requirements).
 
-Once the model is created, create and execute queries based on the [Query Requirements](semantic-model-and-query-requirements.md#query-requirements). Place queries and results (copy/paste tables or screenshots) into a Word document with name as follows to be returned to your Microsoft study contact. Remember to replace the login name with yours.
+Once the model is created, create and execute queries based on the [Query Requirements](semantic-model-and-query-requirements.md#query-requirements). Place queries and results (copy/paste tables or screenshots) into a Word document with name as follows to be returned to your Microsoft study contact. Remember to replace `USER_NUMBER` to match the login provided in your study invitation.
 
-`powerbitestuserX_QueryResults_AI.docx`
+`AI_QueryResults_powerbitestuser<USER_NUMBER>.docx`

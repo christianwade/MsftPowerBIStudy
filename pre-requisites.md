@@ -54,6 +54,9 @@ You must complete these prerequisites successfully before proceeding to study pa
 
 We will provide a GitHub Copilot license for the study. You can use your own license if you prefer.
 
+> [!NOTE]
+> The free GitHub Copilot license is not sufficient to run this study. In order to select the required models, you must use a paid Copilot license or provision one temporarily using the steps below.
+
 > [!WARNING]
 > Joining a study organization can affect an existing GitHub Copilot license on your account.
 >
@@ -106,24 +109,4 @@ To request a GitHub Copilot license for the study:
 > [!NOTE]
 > You might need to sign out, sign in again, and restart Visual Studio Code before the AI credits take effect.
 -->
-
-### Ensure GitHub Copilot App is ready
-
-1. Open the **GitHub Copilot App**
-2. Sign-in with your GitHub account
-   
-	![gh-app-sign-in](resources/img/gh-app-sign-in.png)
-
-	Make sure you are signed in with the GitHub account you plan to use at the workshop.
-
-	![gh-app-signed-in](resources/img/gh-app-signed-in.png)
-
-3. Check the following MCP servers and plugins are installed by selecting **Customize** > **Installed**. The MCP servers should have a green checkmark to show they are connected using your GitHub Copilot account.
-- Power BI Authoring MCP Server (Hosted)
-- FabricIQ
-- fabric-sqlendpoint
-- fabric-skills
-- powerbi-authoring
-
-	![gh-app-plugin-installed](resources/img/plugins-mcp.png)
 
