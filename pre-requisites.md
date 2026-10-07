@@ -55,7 +55,7 @@ You must complete these prerequisites successfully before proceeding to study pa
 We will provide a GitHub Copilot license for the study. You can use your own license if you prefer.
 
 > [!NOTE]
-> The free GitHub Copilot license is not sufficient to run this study. In order to select the required models, you must use a paid Copilot license or provision one temporarily using the steps below.
+> The free GitHub Copilot license is **not sufficient** to run this study. In order to select the required models, you must use a paid Copilot license or provision one temporarily using the steps below.
 
 > [!WARNING]
 > Joining a study organization can affect an existing GitHub Copilot license on your account.
@@ -110,3 +110,4 @@ To request a GitHub Copilot license for the study:
 > You might need to sign out, sign in again, and restart Visual Studio Code before the AI credits take effect.
 -->
 
+Once complete, move onto the [Create Semantic Model Manually](study-instructions-manual.md) section.

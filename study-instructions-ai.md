@@ -15,9 +15,7 @@ Replace `USER_NUMBER` to match the login provided in your study invitation.
 
 ### Fabric workspace
 
-Go to [Power BI](https://app.powerbi.com) and sign in with the Entra ID account provided for the study. It will follow the format powerbitestuserX@msftpowerbistudy.onmicrosoft.com.
-
-Create your models in the workspace already created for you following powerbitestuserX naming.
+Create semantic models in the `powerbitestuser<USER_NUMBER>` workspace that is already created for you.
 
    ![Study workspace](resources/img/study-workspace.png)
 
