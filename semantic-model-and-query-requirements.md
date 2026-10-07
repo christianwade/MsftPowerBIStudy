@@ -4,7 +4,7 @@ Thank you for taking part in this study. This will help guide future investment 
 
 ## Semantic Model Requirements
 
-Create a semantic model called **ZavaSemanticModel-Manual** or **ZavaSemanticModel-AI** based on the requirements below.
+Create a semantic model called **ZavaSemanticModel-Manual/AI** based on the requirements below.
 
 * Use all the tables in the ZavaWarehouse warehouse located in the MsftPowerBIStudy workspace.
 * Do not use an existing semantic model in the workspace as a template.

@@ -20,7 +20,7 @@ You may use the Power BI service (web modeling) or Power BI Desktop to manually 
 
 If needed, start a Fabric Trial to create the model in the service.
 
-Once the model is created, create and execute queries based on the [Query Requirements](semantic-model-and-query-requirements.md#query-requirements). Place queries and results (copy/paste tables or screenshots) into a Word document with name as follows to be returned to Sida.Peng@microsoft.com. Remember to replace the login name with yours.
+Once the model is created, create and execute queries based on the [Query Requirements](semantic-model-and-query-requirements.md#query-requirements). Place queries and results (copy/paste tables or screenshots) into a Word document with name as follows to be returned to your Microsoft study contact. Remember to replace the login name with yours.
 
 `powerbitestuserX_QueryResults_Manual.docx`
 

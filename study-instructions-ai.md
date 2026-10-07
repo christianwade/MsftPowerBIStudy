@@ -25,6 +25,6 @@ During this session, authenticate only using powerbitestuser1@msftpowerbistudy.o
 
 Using the same Copilot session, create a semantic model called **ZavaSemanticModel-AI** based on the the [Semantic Model Requirements](semantic-model-and-query-requirements.md#semantic-model-requirements).
 
-Once the model is created, create and execute queries based on the [Query Requirements](semantic-model-and-query-requirements.md#query-requirements). Place queries and results (copy/paste tables or screenshots) into a Word document with name as follows to be returned to Sida.Peng@microsoft.com. Remember to replace the login name with yours.
+Once the model is created, create and execute queries based on the [Query Requirements](semantic-model-and-query-requirements.md#query-requirements). Place queries and results (copy/paste tables or screenshots) into a Word document with name as follows to be returned to your Microsoft study contact. Remember to replace the login name with yours.
 
 `powerbitestuserX_QueryResults_AI.docx`
