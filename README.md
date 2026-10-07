@@ -12,8 +12,8 @@ Review and successfully complete the [study prerequisites](pre-requisites.md) be
 
 ### [2. Create Semantic Model Manually](study-instructions-manual.md)
 
-Log into Fabric with the assigned account. Create a semantic model manually in Power BI based on the business reqiurements provided. Query the data and store the outputs to send to your Microsoft represntative.
+Log into Fabric with the assigned account. [Create Semantic Model Manually](study-instructions-manual.md) in Power BI based on the business reqiurements provided. Query the data and store the outputs to send to your Microsoft represntative.
 
 ### [3. Create Semantic Model with AI](study-instructions-ai.md)
 
-Log into Fabric with the assigned account. Create a semantic model using GitHub Copilot and Fabric Skills based on the business reqiurements provided. Again, query the data and store the outputs to send to your Microsoft represntative.
+Log into Fabric with the assigned account. [Create Semantic Model with AI](study-instructions-ai.md) using GitHub Copilot and Fabric Skills based on the business reqiurements provided. Again, query the data and store the outputs to send to your Microsoft represntative.
