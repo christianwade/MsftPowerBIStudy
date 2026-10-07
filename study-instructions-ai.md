@@ -2,7 +2,7 @@
 
 ### Sign into Fabric
 
-Go to [Power BI](https://app.powerbi.com) and sign in with the Entra ID account provided for the study. It will follow the following format.
+Go to [Fabric](https://app.fabric.com) and sign in with the Entra ID account provided for the study. It will follow the following format.
 
 `powerbitestuser<USER_NUMBER>@msftpowerbistudy.onmicrosoft.com`
 
@@ -55,22 +55,15 @@ The MCP servers should have a green checkmark to show they are connected using y
 
 ### Create semantic model using AI
 
-<!--
-Take the following prompt text and replace the login and workspace names with the ones provided to you for this study. In GitHub Copilot App, start by entering the text so start a Copilot session. This is a safeguard to avoid cached credentials to other tenants,  associated previous Copilot usage patterns and/or other previously installed MCP servers or plugins.
+Click New to start a new Copilot chat session. Enter the following prompt text. This is a safeguard to avoid cached credentials to other tenants,  associated previous Copilot usage memory and/or other previously installed MCP servers or plugins. Remember to replace `USER_NUMBER` to match the login provided in your study invitation.
 
 ```text
-During this session, authenticate only using powerbitestuser1@msftpowerbistudy.onmicrosoft.com. Create items only in the powerbitestuser1 workspace and use only the following MCP servers.
-- Power BI Authoring MCP Server (Hosted)
-- FabricIQ
-- fabric-sqlendpoint
+During this session, authenticate only using powerbitestuser<USER_NUMBER>@msftpowerbistudy.onmicrosoft.com. Create items only in the powerbitestuser<USER_NUMBER> workspace and use only the Power BI Authoring MCP Server (Hosted), FabricIQ and fabric-sqlendpoint MCP servers.
 ```
--->
-
-Click New to start a new Copilot chat session.
 
 ![gh-app-plugin-installed](resources/img/new-copilot-chat.png)
 
-Using the same Copilot session, create a semantic model called **ZavaSemanticModel-AI** based on the the [Semantic Model Requirements](semantic-model-and-query-requirements.md#semantic-model-requirements).
+Create a semantic model called **ZavaSemanticModel-AI** based on the the [Semantic Model Requirements](semantic-model-and-query-requirements.md#semantic-model-requirements).
 
 Once the model is created, create and execute queries based on the [Query Requirements](semantic-model-and-query-requirements.md#query-requirements). Place queries and results (copy/paste tables or screenshots) into a Word document with name as follows to be returned to your Microsoft study contact. Remember to replace `USER_NUMBER` to match the login provided in your study invitation.
 
