@@ -123,7 +123,7 @@ Create a semantic model called **ZavaSemanticModel-AI**  based on the requiremen
 * Create a measure for Online Sales Amount that applies currency conversion so it can be reported by any of the currencies for which there is data. To apply conversion, divide the USD amount by the end of day rate for each transaction day. Make sure the converted currency uses the correct format string for each currency. If there is no user filter on currency, default to US dollars.
 * Make sure you leave the semantic model in a state that is ready for queries.
 
-If you wish to not be frequently asked for permission for most operations, select Allow all permissions for this session. Copilot can take well over 10 minutes.
+If you wish to not be frequently asked for permission for most operations, select Allow all permissions for this session. Copilot can take a while.
 
 ![vs-code-allowall](resources/img/vs-code-allowall.png)
 
