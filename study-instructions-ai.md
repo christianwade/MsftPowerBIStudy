@@ -19,6 +19,43 @@ Create semantic models in the `powerbitestuser<USER_NUMBER>` workspace that is a
 
    ![Study workspace](resources/img/study-workspace.png)
 
+
+### Ensure Visual Studio Code is ready
+
+1. Open **Visual Studio Code**.
+2. Click the gear icon in the lower-left corner > **Settings** (`CTRL+,`), search for `Disable AI Features` and make sure Disable AI Features is unchecked (off).
+
+	![vs-code-disable-ai-features](resources/img/vs-code-disable-ai-features.png)
+
+3. Open **GitHub Copilot Chat** (`CTRL+ALT+I`) and confirm that the chat view is accessible.
+4. Click on the Copilot icon in the taskbar. You may need to sign-in with your GitHub Copilot account that should have an associated paid Copilot license as set up in [Prerequisites](pre-requisites.md). Check the GitHub account that has a paid Copilot license associated with it.
+
+	![vs-copilot-license](resources/img/vs-copilot-license.png)
+
+5. If you click the Accounts icon in the bottom left, the only account signed in should be your GitHub account with the paid Copilot license.
+
+	![vs-copilot-account](resources/img/vs-copilot-account.png)
+
+5. In **GitHub Copilot Chat** pane, click the gear icon in the top-right to open the **Agent customizations**
+
+	![vscode-github-copilot-agent-customizations](resources/img/vscode-github-copilot-agent-customizations.png)
+
+6. Select **Plugins** tab and confirm the `fabric-skills` and `powerbi-authoring` plugins are installed.
+
+	![vscode-chat-plugin-installed](resources/img/vscode-chat-plugin-installed.png)
+
+7. open **GitHub Copilot Chat** (`CTRL+ALT+I`).
+
+8. Choose the **Copilot** harness in **Set session target**
+
+   ![vscode-copilot-harness](resources/img/vscode-copilot-harness.png)
+
+9. Set the chat mode to **Agent**, select the model `GPT-6.1 Sol` and thinking effort `Medium`.
+
+	![vscode-copilot-chat-model-pick](resources/img/vscode-copilot-chat-model-pick.png)
+
+<!--
+
 ### GitHub Copilot App and Paid Copilot License
 
 1. Open the **GitHub Copilot App**
@@ -53,21 +90,32 @@ The MCP servers should have a green checkmark to show they are connected using y
 
 ![gh-app-plugin-installed](resources/img/plugins-mcp.png)
 
+-->
+
 ### Initialize Copilot Session
 
-Click New to start a new Copilot chat session. Enter the following prompt text. This is a safeguard to avoid cached credentials to other tenants,  associated previous Copilot usage memory and/or other previously installed MCP servers or plugins. Remember to replace `USER_NUMBER` to match the login provided in your study invitation.
+Enter the following prompt text into Copilot chat. This is a safeguard to avoid cached credentials to other tenants. Remember to replace `USER_NUMBER` to match the login provided in your study invitation.
 
 ```text
-During this session, authenticate only using powerbitestuser<USER_NUMBER>@msftpowerbistudy.onmicrosoft.com. Create items only in the powerbitestuser<USER_NUMBER> workspace and use only the Power BI Authoring MCP Server (Hosted), FabricIQ and fabric-sqlendpoint MCP servers.
-```
+During this session, authenticate only using powerbitestuser<USER_NUMBER>@msftpowerbistudy.onmicrosoft.com. Create items only in the powerbitestuser<USER_NUMBER> workspace and use only the powerbitestuser1 workspace.
+ ```
 
-![gh-app-plugin-installed](resources/img/new-copilot-chat.png)
+<!--
+ and use only the powerbi-authoring, FabricIQ and fabric-sqlendpoint MCP servers.
+ -->
+
+![new-copilot-chat](resources/img/new-copilot-chat.png)
+
+Pay attention to whehter you are asked to authenticate. Log in using the `powerbitestuser<USER_NUMBER>@msftpowerbistudy.onmicrosoft.com` account.
+
+![vs-code-authenticate](resources/img/vs-code-authenticate.png)
+
 
 ### Create semantic model using AI
 
 Create a semantic model called **ZavaSemanticModel-AI**  based on the requirements below.
 
-* Use all the tables in the ZavaWarehouse warehouse located in the MsftPowerBIStudy workspace.
+* Use all the tables in the ZavaWarehouse warehouse which is located in the MsftPowerBIStudy workspace.
 * Do not use an existing semantic model in the workspace as a template.
 * Minimize data duplication and refresh management overhead.
 * Use business friendly table and measure names.
@@ -78,6 +126,10 @@ Create a semantic model called **ZavaSemanticModel-AI**  based on the requiremen
 * Create a measure for Inventory Units as a semi-additive measure to report by the last date in filter context. For example, the inventory units for a week should not be the sum of the inventory units for each of the days in that week.
 * Create a measure for Online Sales Amount that applies currency conversion so it can be reported by any of the currencies for which there is data. To apply conversion, divide the USD amount by the end of day rate for each transaction day. Make sure the converted currency uses the correct format string for each currency. If there is no user filter on currency, default to US dollars.
 * Make sure you leave the semantic model in a state that is ready for queries.
+
+If you wish to not be frequently asked for permission for most operations, select Allow all permissions for this session. Copilot can take well over 10 minutes.
+
+![vs-code-allowall](resources/img/vs-code-allowall.png)
 
 ### Query Requirements
 

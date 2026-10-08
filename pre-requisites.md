@@ -9,9 +9,11 @@ You must complete these prerequisites successfully before proceeding to study pa
 
 ## Software
 
-1. Download and install [GitHub Copilot App](https://github.com/features/ai/github-app).
+1. Download and install [Visual Studio Code](https://code.visualstudio.com/download).
 
 <!--
+1. Download and install [GitHub Copilot App](https://github.com/features/ai/github-app).
+
 1. Download and install the following applications.
    - [Visual Studio Code](https://code.visualstudio.com/download)
    - [GitHub Copilot App](https://github.com/features/ai/github-app)
@@ -46,9 +48,6 @@ You must complete these prerequisites successfully before proceeding to study pa
 
 > [!TIP]
 > You might see installation errors for software that is already installed. You can ignore these errors if you have confirmed that the required software is available on your computer and up to date.
-
-> [!TIP]
-> There are several ways to install skills and plugins. You can install them directly in Visual Studio Code. Installing the plugin through GitHub Copilot CLI is a simple way to make its skills and MCP server available across GitHub Copilot CLI, Visual Studio Code, and the GitHub Copilot app without installing duplicate copies.
 
 ## GitHub account and GitHub Copilot license
 

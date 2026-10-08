@@ -8,7 +8,7 @@ You will create two semantic models based on the same set of requirements. One w
 
 ### [1. Study Prerequisites](pre-requisites.md)
 
-Review and successfully complete the [study prerequisites](pre-requisites.md) before creating semantic models. This includes setting up GitHub Copilot App, GitHub CLI, Fabric Skills and your GitHub Copilot licensed account.
+Review and successfully complete the [study prerequisites](pre-requisites.md) before creating semantic models. This includes setting up VS Code, GitHub CLI, Fabric Skills and your GitHub Copilot licensed account.
 
 ### [2. Create Semantic Model Manually](study-instructions-manual.md)
 
