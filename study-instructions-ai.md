@@ -23,30 +23,35 @@ Create semantic models in the `powerbitestuser<USER_NUMBER>` workspace that is a
 ### Ensure Visual Studio Code is ready
 
 1. Open **Visual Studio Code**.
-2. Click the gear icon in the lower-left corner > **Settings** (`CTRL+,`), search for `Disable AI Features` and make sure Disable AI Features is unchecked (off).
+
+2. Ensure the Power BI Authoring MCP Extension ***<u>is not installed.</u>*** Click the Extensions icon and ensure the Power BI Authoring MCP Server is not installed. You will use the hosted Power BI Authoring MCP that was set up in the [Prerequisites](pre-requisites.md) section instead.
+
+	![vs-code-extensions](resources/img/vs-code-extensions.png)
+
+3. Click the gear icon in the lower-left corner > **Settings** (`CTRL+,`), search for `Disable AI Features` and make sure Disable AI Features is unchecked (off).
 
 	![vs-code-disable-ai-features](resources/img/vs-code-disable-ai-features.png)
 
-3. Open **GitHub Copilot Chat** (`CTRL+ALT+I`) and confirm that the chat view is accessible.
-4. Click on the Copilot icon in the taskbar. You may need to sign-in with your GitHub Copilot account that should have an associated paid Copilot license as set up in [Prerequisites](pre-requisites.md). Check the GitHub account that has a paid Copilot license associated with it.
+4. Open **GitHub Copilot Chat** (`CTRL+ALT+I`) and confirm that the chat view is accessible.
+5. Click on the Copilot icon in the taskbar. You may need to sign-in with your GitHub Copilot account that should have an associated paid Copilot license as set up in [Prerequisites](pre-requisites.md). Check the GitHub account that has a paid Copilot license associated with it.
 
 	![vs-copilot-license](resources/img/vs-copilot-license.png)
 
-5. If you click the Accounts icon in the bottom left, the only account signed in should be your GitHub account with the paid Copilot license (assuming you haven't yet signed into the study tenant with the `powerbitestuser<USER_NUMBER>@msftpowerbistudy.onmicrosoft.com` account provided).
+6. If you click the Accounts icon in the bottom left, the only account signed in should be your GitHub account with the paid Copilot license (assuming you haven't yet signed into the study tenant with the `powerbitestuser<USER_NUMBER>@msftpowerbistudy.onmicrosoft.com` account provided).
 
 	![vs-copilot-account](resources/img/vs-copilot-account.png)
 
-5. In **GitHub Copilot Chat** pane, click the gear icon in the top-right to open the **Agent customizations**
+7. In **GitHub Copilot Chat** pane, click the gear icon in the top-right to open the **Agent customizations**
 
 	![vscode-github-copilot-agent-customizations](resources/img/vscode-github-copilot-agent-customizations.png)
 
-6. Select **Plugins** tab and confirm the `fabric-skills` and `powerbi-authoring` plugins are installed.
+8. Select **Plugins** tab and confirm the `fabric-skills` and `powerbi-authoring` plugins are installed.
 
 	![vscode-chat-plugin-installed](resources/img/vscode-chat-plugin-installed.png)
 
-7. open **GitHub Copilot Chat** (`CTRL+ALT+I`).
+9. open **GitHub Copilot Chat** (`CTRL+ALT+I`).
 
-8. We recommend setting the chat mode to **Agent**, select the model `GPT-6.1 Sol` or higher, and thinking effort `Medium`.
+10. We recommend setting the chat mode to **Agent**, select the model `GPT-6.1 Sol` or higher, and thinking effort `Medium`.
 
 	![vscode-copilot-chat-model-pick](resources/img/vscode-copilot-chat-model-pick.png)
 
