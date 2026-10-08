@@ -102,7 +102,7 @@ During this session, authenticate only using powerbitestuser<USER_NUMBER>@msftpo
 
 ![new-copilot-chat](resources/img/new-copilot-chat.png)
 
-Pay attention to whether you are asked to authenticate. Log in using the `powerbitestuser<USER_NUMBER>@msftpowerbistudy.onmicrosoft.com` account.
+Pay attention to whether you are asked to authenticate. Log in using the `powerbitestuser<USER_NUMBER>@msftpowerbistudy.onmicrosoft.com` account. If the connection times out, Copilot could ask you to re-authenticate.
 
 ![vs-code-authenticate](resources/img/vs-code-authenticate.png)
 
