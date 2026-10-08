@@ -108,5 +108,3 @@ To request a GitHub Copilot license for the study:
 > [!NOTE]
 > You might need to sign out, sign in again, and restart Visual Studio Code before the AI credits take effect.
 -->
-
-Once complete, move onto the [Create Semantic Model Manually](study-instructions-manual.md) section.
