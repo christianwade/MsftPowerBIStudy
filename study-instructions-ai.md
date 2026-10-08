@@ -32,7 +32,7 @@ Create semantic models in the `powerbitestuser<USER_NUMBER>` workspace that is a
 
 	![vs-copilot-license](resources/img/vs-copilot-license.png)
 
-5. If you click the Accounts icon in the bottom left, the only account signed in should be your GitHub account with the paid Copilot license.
+5. If you click the Accounts icon in the bottom left, the only account signed in should be your GitHub account with the paid Copilot license (assuming you haven't yet signed into the study tenant with the `powerbitestuser<USER_NUMBER>@msftpowerbistudy.onmicrosoft.com` account provided).
 
 	![vs-copilot-account](resources/img/vs-copilot-account.png)
 
@@ -46,11 +46,7 @@ Create semantic models in the `powerbitestuser<USER_NUMBER>` workspace that is a
 
 7. open **GitHub Copilot Chat** (`CTRL+ALT+I`).
 
-8. Choose the **Copilot** harness in **Set session target**
-
-   ![vscode-copilot-harness](resources/img/vscode-copilot-harness.png)
-
-9. Set the chat mode to **Agent**, select the model `GPT-6.1 Sol` and thinking effort `Medium`.
+8. We recommend setting the chat mode to **Agent**, select the model `GPT-6.1 Sol` or higher, and thinking effort `Medium`.
 
 	![vscode-copilot-chat-model-pick](resources/img/vscode-copilot-chat-model-pick.png)
 
@@ -106,7 +102,7 @@ During this session, authenticate only using powerbitestuser<USER_NUMBER>@msftpo
 
 ![new-copilot-chat](resources/img/new-copilot-chat.png)
 
-Pay attention to whehter you are asked to authenticate. Log in using the `powerbitestuser<USER_NUMBER>@msftpowerbistudy.onmicrosoft.com` account.
+Pay attention to whether you are asked to authenticate. Log in using the `powerbitestuser<USER_NUMBER>@msftpowerbistudy.onmicrosoft.com` account.
 
 ![vs-code-authenticate](resources/img/vs-code-authenticate.png)
 
