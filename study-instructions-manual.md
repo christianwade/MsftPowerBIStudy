@@ -2,7 +2,7 @@
 
 ### Sign into Fabric
 
-Go to [Power BI](https://app.powerbi.com) and sign in with the Entra ID account provided for the study. It will follow the following format. Use a modern web browser, such as Microsoft Edge or Google Chrome
+Go to [Power BI](https://app.powerbi.com) and sign in with the Entra ID account provided for the study. It will follow the following format. Use a modern web browser, such as Microsoft Edge or Google Chrome.
 
 `powerbitestuser<USER_NUMBER>@msftpowerbistudy.onmicrosoft.com`
 
