@@ -1,4 +1,4 @@
-# Create Semantic Model Manually
+# Create Semantic Model
 
 ### Sign into Fabric
 
@@ -19,7 +19,7 @@ Create semantic models in the `powerbitestuser<USER_NUMBER>` workspace that is a
 
    ![Study workspace](resources/img/study-workspace.png)
    
-### Create semantic model manually
+### Create semantic model in the UI
 
 > [!NOTE]
 > Get as far as you can in the time allowed. It's OK if you run out of time and don't finish all the requirements.
