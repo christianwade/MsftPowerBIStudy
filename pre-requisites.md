@@ -9,13 +9,10 @@ You must complete these prerequisites successfully before proceeding to study pa
 
 ## Software
 
-1. Download and install [Visual Studio Code](https://code.visualstudio.com/download).
-
-<!--
-1. Download and install [GitHub Copilot App](https://github.com/features/ai/github-app).
-
-1. Download and install the following applications.
+1. If not already installed, download and install the following applications with default installation settings.
    - [Visual Studio Code](https://code.visualstudio.com/download)
+   - [Git for Windows](https://gitforwindows.org/)
+<!--
    - [GitHub Copilot App](https://github.com/features/ai/github-app)
 -->
 
@@ -28,6 +25,9 @@ You must complete these prerequisites successfully before proceeding to study pa
    ```
    ![Install progress](resources/img/copilot-install-progress.png)
 
+> [!NOTE]
+> You may need to close and reopen the Terminal window to use new values.
+
 <!-- 
    To install [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest&pivots=winget), run:
 
@@ -39,7 +39,11 @@ You must complete these prerequisites successfully before proceeding to study pa
 3. Run the following commands to install Fabric Skills and Power BI authoring plugin.
 
 	```powershell
-	copilot plugin marketplace add microsoft/skills-for-fabric	
+	copilot plugin marketplace add microsoft/skills-for-fabric
+	```
+
+	```powershell	
+	copilot plugin install fabric-skills@fabric-collection
 	```
 
 	```powershell	

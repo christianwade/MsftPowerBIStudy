@@ -1,8 +1,8 @@
 # Create Semantic Model with AI
 
-### Sign into Fabric
+## Sign into Fabric
 
-Go to [Fabric](https://app.fabric.com) and sign in with the Entra ID account provided for the study. It will follow the following format.
+Go to [Power BI](https://app.powerbi.com) and sign in with the Entra ID account provided for the study. It will follow the following format.
 
 `powerbitestuser<USER_NUMBER>@msftpowerbistudy.onmicrosoft.com`
 
@@ -20,9 +20,9 @@ Create semantic models in the `powerbitestuser<USER_NUMBER>` workspace that is a
    ![Study workspace](resources/img/study-workspace.png)
 
 
-### Ensure Visual Studio Code is ready
+## Ensure Visual Studio Code is ready
 
-1. Open **Visual Studio Code**.
+1. Open **Visual Studio Code**. Sign-in with your GitHub Copilot account that has an associated paid Copilot license as set up in [Prerequisites](pre-requisites.md).
 
 2. Ensure the Power BI Authoring MCP Extension ***<u>is not installed.</u>*** Click the Extensions icon and ensure the Power BI Authoring MCP Server is not installed. You will use the hosted Power BI Authoring MCP that was set up in the [Prerequisites](pre-requisites.md) section instead.
 
@@ -33,7 +33,11 @@ Create semantic models in the `powerbitestuser<USER_NUMBER>` workspace that is a
 	![vs-code-disable-ai-features](resources/img/vs-code-disable-ai-features.png)
 
 4. Open **GitHub Copilot Chat** (`CTRL+ALT+I`) and confirm that the chat view is accessible.
-5. Click on the Copilot icon in the taskbar. You may need to sign-in with your GitHub Copilot account that should have an associated paid Copilot license as set up in [Prerequisites](pre-requisites.md). Check the GitHub account that has a paid Copilot license associated with it.
+5. Click on the Copilot icon in the taskbar. If you see the Use AI Features, button, click it and sign-in with your GitHub Copilot account that has an associated paid Copilot license as set up in [Prerequisites](pre-requisites.md). You may need to close and reopen VS Code to pick up your GitHub account.
+
+	![vs-copilot-use-ai-features](resources/img/vs-copilot-use-ai-features.png)
+
+5. Check the GitHub account that has a paid Copilot license associated with it.
 
 	![vs-copilot-license](resources/img/vs-copilot-license.png)
 
@@ -107,12 +111,11 @@ During this session, authenticate only using powerbitestuser<USER_NUMBER>@msftpo
 
 ![new-copilot-chat](resources/img/new-copilot-chat.png)
 
-Pay attention to whether you are asked to authenticate. Log in using the `powerbitestuser<USER_NUMBER>@msftpowerbistudy.onmicrosoft.com` account. If the connection times out, Copilot could ask you to re-authenticate.
+At this point, or later when you enter more commands, pay close attention to whether you are asked to authenticate. Log in using the `powerbitestuser<USER_NUMBER>@msftpowerbistudy.onmicrosoft.com` account. If the connection times out, Copilot could ask you to re-authenticate.
 
 ![vs-code-authenticate](resources/img/vs-code-authenticate.png)
 
-
-### Create semantic model using AI
+## Create semantic model using AI
 
 Create a semantic model called **ZavaSemanticModel-AI**  based on the requirements below.
 
@@ -128,17 +131,20 @@ Create a semantic model called **ZavaSemanticModel-AI**  based on the requiremen
 * Create a measure for Online Sales Amount that applies currency conversion so it can be reported by any of the currencies for which there is data. To apply conversion, divide the USD amount by the end of day rate for each transaction day. Make sure the converted currency uses the correct format string for each currency. If there is no user filter on currency, default to US dollars.
 * Make sure you leave the semantic model in a state that is ready for queries.
 
+---
 If you wish to not be frequently asked for permission for most operations, select Allow all permissions for this session. Copilot can take a while.
 
 ![vs-code-allowall](resources/img/vs-code-allowall.png)
 
-### Query Requirements
+## Query Requirements
 
 Use the semantic model you created to answer the following data questions. You can create and execute a DAX query for each of the following data questions. Show the queries.
 1. What is online sales in USD and online sales YTD (year to date) in the Europe sales territory group for each of the months in 2026? Reuse any time intelligence capabilities you built into the model to answer this question.
 2. What is the customer count, previous year value, and YOY% (year over year growth percentage) of customer count in the Europe sales territory group broken out by the months in 2026? Reuse any time intelligence capabilities you built into the model to answer this question.
 3. What are the inventory units for each month in 2026 for blue products?
 4. What is online sales for each month in 2026 converted to each of the following currencies? Brazilian Real, EURO, US Dollar, United Kingdom Pound, Yen. Show the output with the respective format string for each currency.
+
+---
 
 ### Returning Query Results
 
