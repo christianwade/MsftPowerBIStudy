@@ -1,4 +1,4 @@
-# Power BI Study on Creation of Semantic Models with AI
+# Power BI Study on Creation of Semantic Models
 
 Thank you for taking part in this study. This will help guide future investment of Power BI and Fabric. You will create a semantic model based on the same set of requirements.
 
